@@ -1,0 +1,14 @@
+# Secrets
+.streamlit/secrets.toml
+
+# Vector store (local only, rebuilt on Streamlit Cloud)
+vector_store/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+venv-rag/
+
+# Mac
+.DS_Store
