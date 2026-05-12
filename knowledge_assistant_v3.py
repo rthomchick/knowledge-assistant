@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 st.title("🧠 PM Knowledge Assistant")
-st.caption("Powered by Pinecone + Claude | ServiceNow Personalization Team")
+st.caption("Powered by Pinecone + Claude")
 
 @st.cache_resource
 def get_clients():
